@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/app.js",
     "run": "node server/app.js",
     "run:dev": "nodemon server/app.js",
     "build": "cd client && npm install && npm run build",
