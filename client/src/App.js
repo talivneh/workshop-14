@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import MovieList from "./Components/MovieItemList/MovieItemList";
+import MovieList from "./Components/MovieList/MovieList";
 
 
 function App() {

@@ -2,7 +2,7 @@ import MovieItem from "../MovieItem/MovieItem";
 import {useEffect, useState} from "react";
 import {fetchMovies} from "../../Services/MovieService";
 
-export default function MovieItemList() {
+export default function MovieList() {
     const [movies, setMovies] = useState([]);
     useEffect(() => {
         fetchMovies().then(fetchedMovies => {
